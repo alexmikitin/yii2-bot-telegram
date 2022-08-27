@@ -60,20 +60,12 @@ Add
 ```
 "repositories": [
     {
-        "type":"package",
-        "package": {
-          "name": "alekseymikitin/yii2-bot-telegram",
-          "version":"master",
-          "source": {
-              "url": "https://github.com/alekseymikitin/yii2-bot-telegram.git",
-              "type": "git",
-              "reference":"master"
-            }
-        }
-    }
+      "type" : "vcs",
+      "url" : "https://github.com/alexmikitin/yii2-bot-telegram.git"
+    },
 ],
 "require": {
-    "alekseymikitin/yii2-bot-telegram": "master"
+    "alekseymikitin/yii2-bot-telegram" : "dev-fix-main-repo",
 }
 ```
 
